@@ -1,0 +1,33 @@
+nav {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  height: 2.5rem;
+}
+nav menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  gap: 2rem;
+  color: white;
+}
+nav menu :first-child {
+  margin-right: 2rem;
+}
+nav .right {
+  font-size: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  color: white;
+}
+nav .right img {
+  border-radius: 0.3rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 2.5rem;
+  cursor: pointer;
+}/*# sourceMappingURL=navbarstyle.css.map */
