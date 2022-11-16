@@ -2,6 +2,9 @@ nav {
   padding: 2rem;
   display: flex;
   justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 nav img {
   height: 2.5rem;
@@ -14,8 +17,12 @@ nav menu {
   gap: 2rem;
   color: white;
 }
+nav menu li {
+  cursor: pointer;
+}
 nav menu :first-child {
   margin-right: 2rem;
+  cursor: pointer;
 }
 nav .right {
   font-size: 2rem;
@@ -29,5 +36,23 @@ nav .right img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 2.5rem;
+  cursor: pointer;
+}
+nav .profile .option {
+  display: none;
+}
+nav .profile:hover .option {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 0.2rem;
+  top: 4.5rem;
+  right: 1rem;
+  gap: 0.5rem;
+}
+nav .profile:hover .option span {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
   cursor: pointer;
 }/*# sourceMappingURL=navbarstyle.css.map */

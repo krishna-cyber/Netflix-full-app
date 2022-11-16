@@ -3,6 +3,8 @@ import "./navbarstyle.css";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { IoMdNotifications } from "react-icons/io";
 import { AiFillCaretDown } from "react-icons/ai";
+import { FiSettings } from "react-icons/fi";
+import { BiLogOut } from "react-icons/bi";
 
 const Navbar = () => {
   return (
@@ -28,7 +30,23 @@ const Navbar = () => {
             src='https://s.gravatar.com/avatar/f22fb6b42c39ec3a0483282ed2dfa332?s=96&d=mm&r=g'
             alt=''
           />
-          <AiFillCaretDown />
+          <div className='profile'>
+            <AiFillCaretDown />
+            <div className='option'>
+              <span>
+                <span className='icon inline-block mr-2'>
+                  <FiSettings />
+                </span>
+                Setting
+              </span>
+              <span>
+                <span className='inline-block mr-2'>
+                  <BiLogOut />
+                </span>
+                Log out
+              </span>
+            </div>
+          </div>
         </div>
       </nav>
     </>
