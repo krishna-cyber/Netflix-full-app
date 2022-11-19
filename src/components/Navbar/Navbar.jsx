@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbarstyle.css";
+import { useState } from "react";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { IoMdNotifications } from "react-icons/io";
 import { AiFillCaretDown } from "react-icons/ai";
@@ -7,9 +8,16 @@ import { FiSettings } from "react-icons/fi";
 import { BiLogOut } from "react-icons/bi";
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+  window.onscroll = () => {
+    setIsScrolled(window.pageYOffset === 0 ? false : true);
+    console.log(isScrolled);
+    return () => (window.onscroll = null);
+  };
+
   return (
     <>
-      <nav>
+      <nav className={isScrolled ? "scrolled" : null}>
         <menu>
           <img
             src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/330px-Netflix_2015_logo.svg.png'
