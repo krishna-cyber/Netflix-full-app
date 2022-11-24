@@ -1,0 +1,34 @@
+.swiper {
+  padding: 2rem;
+}
+.swiper h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  color: white;
+}
+.swiper .swiper {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+}
+.swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper .swiper-slide:hover {
+  cursor: pointer;
+  zoom: 125%;
+}
+.swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=listStyle.css.map */

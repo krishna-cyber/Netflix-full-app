@@ -1,0 +1,48 @@
+.feature {
+  height: 96vh;
+  position: relative;
+  font-size: 1.4rem;
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .desc {
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    width: 35%;
+    left: 15px;
+    bottom: 100px;
+    img {
+      width: 70%;
+      margin-bottom: -1rem;
+    }
+    .buttons {
+      margin-top: 20px;
+
+      .play {
+        color: black;
+        padding: 0.8rem;
+        border-radius: 0.3rem;
+        font-weight: 500;
+        background: rgb(214, 211, 211);
+        margin-right: 1.3rem;
+        cursor: pointer;
+      }
+      .info {
+        color: white;
+        padding: 0.8rem;
+        border-radius: 0.3rem;
+        font-weight: 500;
+        background: rgb(65, 65, 65);
+        cursor: pointer;
+      }
+      .icon {
+        display: inline-block;
+        font-size: 2rem;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

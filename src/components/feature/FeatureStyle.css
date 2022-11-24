@@ -1,1 +1,48 @@
-/*# sourceMappingURL=FeatureStyle.css.map */
+.feature {
+  height: 96vh;
+  position: relative;
+  font-size: 1.4rem;
+}
+.feature img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.feature .desc {
+  color: white;
+  font-weight: 400;
+  position: absolute;
+  width: 35%;
+  left: 15px;
+  bottom: 100px;
+}
+.feature .desc img {
+  width: 70%;
+  margin-bottom: -1rem;
+}
+.feature .desc .buttons {
+  margin-top: 20px;
+}
+.feature .desc .buttons .play {
+  color: black;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  background: rgb(214, 211, 211);
+  margin-right: 1.3rem;
+  cursor: pointer;
+}
+.feature .desc .buttons .info {
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  background: rgb(65, 65, 65);
+  cursor: pointer;
+}
+.feature .desc .buttons .icon {
+  display: inline-block;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}/*# sourceMappingURL=FeatureStyle.css.map */

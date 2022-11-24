@@ -1,15 +1,14 @@
 import React from "react";
+import Feature from "../../components/feature/Feature";
 import Navbar from "../../components/Navbar/Navbar";
+import List from "../../components/List/List";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <img
-        src='https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-        width='100%'
-        alt=''
-      />
+      <Feature />
+      <List />
     </>
   );
 };
