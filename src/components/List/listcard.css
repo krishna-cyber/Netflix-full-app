@@ -1,0 +1,17 @@
+.card {
+  color: white;
+}
+.card:hover .info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.card:hover .info .icons {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  font-size: 2.2rem;
+}
+.card .info {
+  display: none;
+}/*# sourceMappingURL=listcard.css.map */

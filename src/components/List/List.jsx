@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./listStyle.css";
-
+import ListCard from "./ListCard";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -23,52 +23,28 @@ const List = () => {
           modules={[Navigation, Mousewheel, Keyboard]}
           className='mySwiper'>
           <SwiperSlide>
-            <img
-              src='https://occ-0-3752-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaCvs4fjcIHfgNig8HXMe6yDTEqPTIlAc5JiIsTs5xlD73u9bqE3GnHCcGGCIsvQfUeE7tXFAfGwzXDBmEvNQcTZHpflCep_tXM.jpg?r=216'
-              alt=''
-            />
+            <ListCard />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src='https://occ-0-3752-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaCvs4fjcIHfgNig8HXMe6yDTEqPTIlAc5JiIsTs5xlD73u9bqE3GnHCcGGCIsvQfUeE7tXFAfGwzXDBmEvNQcTZHpflCep_tXM.jpg?r=216'
-              alt=''
-            />
+            <ListCard />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src='https://occ-0-3752-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaCvs4fjcIHfgNig8HXMe6yDTEqPTIlAc5JiIsTs5xlD73u9bqE3GnHCcGGCIsvQfUeE7tXFAfGwzXDBmEvNQcTZHpflCep_tXM.jpg?r=216'
-              alt=''
-            />
+            <ListCard />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src='https://occ-0-3752-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaCvs4fjcIHfgNig8HXMe6yDTEqPTIlAc5JiIsTs5xlD73u9bqE3GnHCcGGCIsvQfUeE7tXFAfGwzXDBmEvNQcTZHpflCep_tXM.jpg?r=216'
-              alt=''
-            />
+            <ListCard />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src='https://occ-0-3752-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaCvs4fjcIHfgNig8HXMe6yDTEqPTIlAc5JiIsTs5xlD73u9bqE3GnHCcGGCIsvQfUeE7tXFAfGwzXDBmEvNQcTZHpflCep_tXM.jpg?r=216'
-              alt=''
-            />
+            <ListCard />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src='https://occ-0-3752-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaCvs4fjcIHfgNig8HXMe6yDTEqPTIlAc5JiIsTs5xlD73u9bqE3GnHCcGGCIsvQfUeE7tXFAfGwzXDBmEvNQcTZHpflCep_tXM.jpg?r=216'
-              alt=''
-            />
+            <ListCard />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src='https://occ-0-3752-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaCvs4fjcIHfgNig8HXMe6yDTEqPTIlAc5JiIsTs5xlD73u9bqE3GnHCcGGCIsvQfUeE7tXFAfGwzXDBmEvNQcTZHpflCep_tXM.jpg?r=216'
-              alt=''
-            />
+            <ListCard />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src='https://occ-0-3752-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaCvs4fjcIHfgNig8HXMe6yDTEqPTIlAc5JiIsTs5xlD73u9bqE3GnHCcGGCIsvQfUeE7tXFAfGwzXDBmEvNQcTZHpflCep_tXM.jpg?r=216'
-              alt=''
-            />
+            <ListCard />
           </SwiperSlide>
         </Swiper>
       </section>

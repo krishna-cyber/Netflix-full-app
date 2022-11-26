@@ -1,0 +1,19 @@
+.card {
+  color: white;
+  &:hover {
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      .icons {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        font-size: 2.2rem;
+      }
+    }
+  }
+  .info {
+    display: none;
+  }
+}
